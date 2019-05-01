@@ -1,8 +1,8 @@
 {% set name = "qdarkstyle" %}
 {% set package_name = "QDarkStyle" %}
-{% set version = "2.6.6" %}
+{% set version = "2.6.7" %}
 {% set hash_type = "sha256" %}
-{% set hash = "75f4c615ca490185522dbb80dcb0ee0122294bff475bf2f6bf7b5967c6db7bc9" %}
+{% set hash = "c9acc018a3fcc5a1848516ff9f6989eb903db08e34a13b5a757e2c899df83770" %}
 
 package:
   name: {{ name|lower }}
