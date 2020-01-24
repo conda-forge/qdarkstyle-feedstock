@@ -34,7 +34,7 @@ about:
   home: https://github.com/ColinDuquesnoy/QDarkStyleSheet
   license: MIT
   license_family: MIT
-  license_file: LICENSE.md
+  license_file: LICENSE.rst
   summary: 'A dark stylesheet for Qt applications (Qt4, Qt5, PySide, PyQt4, PyQt5, QtPy, PyQtGraph).'
 
   description: |
@@ -46,3 +46,4 @@ extra:
   recipe-maintainers:
     - ccordoba12
     - dalthviz
+    - goanpeca
