@@ -1,8 +1,8 @@
 {% set name = "qdarkstyle" %}
 {% set package_name = "QDarkStyle" %}
-{% set version = "2.7" %}
+{% set version = "2.8" %}
 {% set hash_type = "sha256" %}
-{% set hash = "de7aba62119a839556afd7b3b962588410b6249cbcfcbd56e51e6e827264c38f" %}
+{% set hash = "6a967c4b664446f8bed9df12d1032cf68cb54f186bfc9cbfdbbc756bf9a5d475" %}
 
 package:
   name: {{ name|lower }}
@@ -34,7 +34,7 @@ about:
   home: https://github.com/ColinDuquesnoy/QDarkStyleSheet
   license: MIT
   license_family: MIT
-  license_file: LICENSE.md
+  license_file: LICENSE.rst
   summary: 'A dark stylesheet for Qt applications (Qt4, Qt5, PySide, PyQt4, PyQt5, QtPy, PyQtGraph).'
 
   description: |
@@ -46,3 +46,4 @@ extra:
   recipe-maintainers:
     - ccordoba12
     - dalthviz
+    - goanpeca
