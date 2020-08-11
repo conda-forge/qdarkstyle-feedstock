@@ -5,7 +5,7 @@ Home: https://github.com/ColinDuquesnoy/QDarkStyleSheet
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A dark stylesheet for Qt applications (Qt4, Qt5, PySide, PyQt4, PyQt5, QtPy, PyQtGraph).
 
