@@ -21,6 +21,7 @@ requirements:
   run:
     - python >=2.7
     - qtpy >=1.9
+    - helpdev >=0.6.10
 
 test:
   imports:
