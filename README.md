@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qdarkstyle-feed
 
 Summary: A dark stylesheet for Qt applications (Qt4, Qt5, PySide, PyQt4, PyQt5, QtPy, PyQtGraph).
 
-Development: https://github.com/ColinDuquesnoy/QDarkStyleSheet/tree/dev
+Development: https://github.com/ColinDuquesnoy/QDarkStyleSheet/
 
 Package that provides dark stylesheet for Qt applications
 (Qt4, Qt5, PySide, PyQt4, PyQt5, QtPy, PyQtGraph).
@@ -112,9 +112,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
