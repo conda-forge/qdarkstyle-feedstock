@@ -16,12 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.6
     - pip
   run:
-    - python >=2.7
+    - python >=3.6
     - qtpy >=1.9
-    - helpdev >=0.6.10
 
 test:
   imports:
@@ -40,7 +39,7 @@ about:
   description: |
     Package that provides dark stylesheet for Qt applications
     (Qt4, Qt5, PySide, PyQt4, PyQt5, QtPy, PyQtGraph).
-  dev_url: https://github.com/ColinDuquesnoy/QDarkStyleSheet/tree/dev
+  dev_url: https://github.com/ColinDuquesnoy/QDarkStyleSheet/
 
 extra:
   recipe-maintainers:
