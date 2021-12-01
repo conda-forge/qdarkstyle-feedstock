@@ -1,5 +1,5 @@
 {% set name = "qdarkstyle" %}
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/QDarkStyle-{{ version }}.tar.gz
-  sha256: 55d149cf5f40ee297397f1818e091118cefb855a4a9c5c38566c47acd2d8c7ae
+  sha256: 936d2d35b552f429803a985dbc17fc879a2f966faa9fbf8983896ccfa33e68f6
 
 build:
   noarch: python
