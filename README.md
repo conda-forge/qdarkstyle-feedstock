@@ -1,11 +1,11 @@
-About qdarkstyle
-================
+About qdarkstyle-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qdarkstyle-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ColinDuquesnoy/QDarkStyleSheet
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qdarkstyle-feedstock/blob/main/LICENSE.txt)
 
 Summary: A dark stylesheet for Qt applications (Qt4, Qt5, PySide, PyQt4, PyQt5, QtPy, PyQtGraph).
 

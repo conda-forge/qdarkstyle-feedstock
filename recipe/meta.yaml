@@ -1,5 +1,5 @@
 {% set name = "qdarkstyle" %}
-{% set version = "3.1" %}
+{% set version = "3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,20 +7,20 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/QDarkStyle-{{ version }}.tar.gz
-  sha256: 600584d625343e0ddd128de08393d3c35637786a49827f174d29aa7caa8279c1
+  sha256: f2f03c4bd7fb4e1e87f8f5d233c7839165422f43d6797cbe00e0bd919449f12c
 
 build:
   noarch: python
   number: 0
-  script: '{{ PYTHON }} -m pip install . -vvv '
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
-    - qtpy >=1.9
+    - python >=3.7
+    - qtpy >=2.0
 
 test:
   imports:
