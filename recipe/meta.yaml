@@ -12,15 +12,15 @@ source:
 build:
   noarch: python
   number: 0
-  script: '{{ PYTHON }} -m pip install . -vvv '
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
-    - qtpy >=1.9
+    - python >=3.7
+    - qtpy >=2.0
 
 test:
   imports:
